@@ -4,7 +4,7 @@
     	
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-3 logo">
-          <a href="#"><img src="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/logo_footer.png" class="img-responsive" alt=""></a>
+          <a href="#"><img src="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/logo_foot.png" class="img-responsive" alt=""></a>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 text-center navbar-footer">
           <ul class="list-inline">
@@ -30,8 +30,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-        	Copyright © <?php echo date('Y'); ?> GAME PANEL <br>
-          <span>Diseñado y Programado por <a href="#">GamePanel.com</a></span>
+        	Copyright © <?php echo date('Y'); ?> FIVE PIXEL STUDIO <br>
+          <span>Diseñado y Programado por <a href="#">fivepixelstudio.com</a></span>
         </div>
       </div>
     </div>
