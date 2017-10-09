@@ -1,71 +1,63 @@
-<div class="parallax" class="parallax-window" data-parallax="scroll" data-image-src="http://placehold.it/800x400">
- <div class="container">
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<h2>GAME PANEL</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum maxime tempore quae eum provident, ipsa nihil quidem veritatis consequatur quod molestias veniam labore quos odio doloremque modi iusto necessitatibus. Provident.</p>
+			<?php echo base_url(); ?>
+		</div>
+	</div>
+</div>
 
-    <br>
-
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="http://placehold.it/800x400" alt="...">
-          <div class="carousel-caption">
-            <h2>Heading</h2>
-          </div>
-        </div>
-        <div class="item">
-          <img src="http://placehold.it/800x400" alt="...">
-          <div class="carousel-caption">
-            <h2>Heading</h2>
-          </div>
-        </div>
-        <div class="item">
-          <img src="http://placehold.it/800x400" alt="...">
-          <div class="carousel-caption">
-            <h2>Heading</h2>
-          </div>
+<br>
+<div class="container">
+  <div class="row">
+ 
+    <!-- GAME  -->   
+    <div class="col-sm-4 game">
+      <div class="panel panel-default">
+        <img src="http://www.abc.net.au/reslib/201612/r1646745_25272999.jpg" class="img-responsive" alt="Image">
+        <div class="panel-body">
+          <h4>LIMBO</h4>
+          <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus facere harum magnam ducimus sit earum voluptatibus voluptate consectetur! Eum dolorum animi sunt, esse deserunt nisi assumenda cum obcaecati debitis sint?</p>
+          <div class="text-center"><button type="button" class="btn btn-default"><i class="fa fa-gamepad" aria-hidden="true"></i> Jugar </button></div>
         </div>
       </div>
+    </div> 
 
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
+    <!-- GAME  -->
+    <div class="col-sm-4 game">
+      <div class="panel panel-default">
+        <img src="http://www.abc.net.au/reslib/201612/r1646745_25272999.jpg" class="img-responsive" alt="Image">
+        <div class="panel-body">
+          <h4>LIMBO</h4>
+          <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus facere harum magnam ducimus sit earum voluptatibus voluptate consectetur! Eum dolorum animi sunt, esse deserunt nisi assumenda cum obcaecati debitis sint?</p>
+          <div class ="text-center"><button type="button" class="btn btn-default"><i class="fa fa-gamepad" aria-hidden="true"></i> Jugar</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GAME  -->
+    <div class="col-sm-4 game">
+      <div class="panel panel-default">
+        <img src="http://www.abc.net.au/reslib/201612/r1646745_25272999.jpg" class="img-responsive" alt="Image">
+        <div class="panel-body">
+          <h4>LIMBO</h4>
+          <p class="descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus facere harum magnam ducimus sit earum voluptatibus voluptate consectetur! Eum dolorum animi sunt, esse deserunt nisi assumenda cum obcaecati debitis sint?</p>
+          <div class="text-center"><button type="button" class="btn btn-default"><i class="fa fa-gamepad" aria-hidden="true"></i> Jugar</button></div>
+        </div>
+      </div>
     </div>
 
   </div>
 </div>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<?php if($this->session->userdata('log_estado') == 'OK'){ ?>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<h2>DATO SOLO PARA USUARIOS</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ullam laudantium, ipsum repellat ex quam deserunt temporibus porro laborum quidem veniam voluptas voluptate harum maiores est ratione, esse debitis nulla?</p>
+		</div>
+	</div>
+</div>
+<?php } ?>
