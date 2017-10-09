@@ -5,9 +5,9 @@ class Inicio extends CI_Controller {
 
 	public function index()
 	{
-		//$this->load->view('plantillas/plantilla_header');
-		$this->load->view('under_construction');
-		//$this->load->view('plantillas/plantilla_footer');
+		$this->load->view('plantillas/plantilla_header');
+		$this->load->view('inicio');
+		$this->load->view('plantillas/plantilla_footer');
 	}
 	
 }

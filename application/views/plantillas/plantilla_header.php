@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>GamePanel</title>
+    <title>Five Pixel Studio</title>
     <!-- Bootstrap -->
     <link href="<?php echo BASE_ASSETS; ?>bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo BASE_ASSETS; ?>font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/style.css">
-
+    <link rel="shortcut icon" href="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/favicon.ico" type="image/x-icon" />
   </head>
   <body>
       <!--Base sin css -->
@@ -31,34 +31,6 @@
       </a>
     </div>
 
-        
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-
-      <ul class="nav navbar-nav navbar-right">
-        <?php if($this->session->userdata('log_estado') == 'OK'){ ?>
-        <li ><a data-toggle="modal" href="#" ><i class="fa fa-superpowers" aria-hidden="true"></i> Coins <?php echo $this->session->userdata('log_coins');  ?> </a></li>
-        <?php } ?>
-
-        <?php if($this->session->userdata('log_estado') == 'OK'){ ?>
-        <li><a data-toggle="modal" href="<?php echo base_url(); ?>usuario/perfil"><i class="fa fa-user-circle-o" aria-hidden="true"> </i> <?php echo $this->session->userdata('log_usuario');  ?>  </a></li>
-        <?php } ?>
-
-        <?php if($this->session->userdata('log_estado') == 'OK'){ ?>
-        <li><a data-toggle="modal" href="<?php echo base_url(); ?>usuario/salir"><i class="fa fa-power-off" aria-hidden="true"></i>
-         Salir</a></li>
-        <?php }else{ ?>
-
-        <li><a data-toggle="modal" href="<?php echo base_url(); ?>usuario/registro">Registrarse</a></li>
-        <?php } ?>
-
-         <?php if($this->session->userdata('log_estado') != 'OK'){ ?>
-        <li><a data-toggle="modal" href="#Login-modal"><i class="fa fa-sign-in" aria-hidden="true"></i> Conectarse</a></li>
-        <?php } ?>
-
-      </ul>
     </div>
-    </div>
-      </div>
+  </div>
 </nav>
-
-<div class="cuerpo_general">
