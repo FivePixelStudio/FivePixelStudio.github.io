@@ -27,7 +27,7 @@
         <span class="icon-bar"></span>
       </button>
       <a  href="<?php echo base_url(); ?>">
-        <img src="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/logo_menu.png" class="img-responsive" alt="Image">
+        <img src="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/logo_menu.png" style="width: 50%;"class="img-responsive" alt="Image">
       </a>
     </div>
 
