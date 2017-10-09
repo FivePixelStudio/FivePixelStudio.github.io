@@ -1,0 +1,154 @@
+  .cuerpo_general{
+    min-height: 350px;
+  }
+
+  /* GAME STORE */
+  .game{
+    /*color: #999999;*/
+  }
+  .game h4{
+    padding: 0px;
+    margin: 0px;
+  }
+  .game .descripcion{
+    margin-top: 10px;
+  }
+
+  /* MENU */
+
+  .navbar-default{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* FOOTER */
+  footer{
+    margin-top: 30px;
+    padding: 30px 0px;
+    background-color: #02354f;
+    color: white;
+  }
+  footer .navbar-footer{
+    padding-top: 24px;
+    text-transform: uppercase;
+  }
+  footer .social-footer{
+    padding-top: 24px;
+  }
+  footer .social-footer .social i{
+    padding: 8px 15px 8px 11px;
+    width: 30px;
+    height: 30px;
+  }
+  footer .social-footer .social a{
+    text-decoration: none;
+    color: white;
+  }
+  footer .social-footer i:hover{
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+  }
+  footer .social-footer .social .fa-facebook:hover{
+    background-color: #4060A5;
+  }
+  footer .social-footer .social .fa-twitter:hover{
+    background-color: #00ABE3;
+  }
+  footer .social-footer .social .fa-instagram:hover{
+    background-color: #375989;
+  }
+  footer .social-footer .social .fa-google-plus:hover{
+    background-color: #e64522;
+  }
+  footer .social-footer .social .fa-youtube:hover{
+    background-color: #FF1F25;
+  }
+  footer .social-footer .social .fa-github:hover{
+    background-color: #343434;
+  }
+  footer .social-footer .social .fa-pinterest:hover{
+    background-color: #cb2027;
+  }
+  footer .social-footer .social .fa-linkedin:hover{
+    background-color: #0094BC;
+  }
+  footer .social-footer .social .fa-flickr:hover{
+    background-color: #FF57AE;
+  }
+  footer .social-footer .social .fa-vimeo-square:hover{
+    background-color: #83DAEB;
+  }
+  footer .social-footer .social .fa-stack-overflow:hover{
+    background-color: #FEA501;
+  }
+  footer .social-footer .social .fa-dropbox:hover{
+    background-color: #017FE5;
+  }
+  footer .social-footer .social .fa-tumblr:hover{
+    background-color: #3a5876;
+  }
+  footer .social-footer .social .fa-dribbble:hover{
+    background-color: #F46899;
+  }
+  footer .social-footer .social .fa-skype:hover{
+    background-color: #00C6FF;
+  }
+  footer .social-footer .social .fa-stack-exchange:hover{
+    background-color: #4D86C9;
+  }
+  footer .social-footer .social .fa-xing:hover{
+    background-color: #005C5E;
+  }
+  footer .social-footer .social .fa-rss:hover{
+    background-color: #e88845;
+  }
+  footer .social-footer .social .fa-foursquare:hover{
+    background-color: #09B9E0;
+  }
+  footer .social-footer .social .fa-youtube-play:hover{
+    background-color: #DF192A;
+  }
+  footer .col-md-6 ul li a{
+    text-decoration: none;
+    color: white;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+  }
+  footer .col-md-6 ul li a:hover{
+    color: #67b7e3;
+    font-weight: 400;
+  }
+  footer .col-md-6 ul li:after{
+    content: ".";
+    font-size: 18px;
+    color: #eee;
+    position: relative;
+    bottom: 3px;
+    margin-left: 15px;
+    font-weight: 600;
+  }
+  footer .col-md-6 ul li:last-child:after{
+    content: "";
+  }
+  footer .logo img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .copyright-footer{
+    padding: 15px 0px; 
+    background-color: #032a3a;
+    color: #999999;
+    font-size: 12px;
+  }
+
+  .copyright-footer a{
+    color: #999999;
+  }
+  .copyright-footer a:hover{
+    color: #999999;
+    text-decoration: underline;
+  }
