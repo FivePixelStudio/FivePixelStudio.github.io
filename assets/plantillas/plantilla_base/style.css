@@ -1,25 +1,100 @@
   .cuerpo_general{
     min-height: 350px;
   }
+  .buttons{
+        display: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        max-width: 100%;
+        border: 1px solid #ffffff;
 
-  /* GAME STORE */
-  .game{
-    /*color: #999999;*/
   }
-  .game h4{
-    padding: 0px;
-    margin: 0px;
-  }
-  .game .descripcion{
-    margin-top: 10px;
-  }
-
   /* MENU */
+.navbar-default {
+  background-color: #ffffff;
+  padding-bottom: : 0px !important;
+}
+.navbar-default .navbar-brand {
+  color: #000000;
 
-  .navbar-default{
-    padding-top: 10px;
-    padding-bottom: 10px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ff7c00;
+}
+.navbar-default .navbar-text {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+  border-bottom-width: 10px;
+  border-color: #ff7c00;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ff7c00;
+    border-bottom-width: 5px;
+  border-bottom-color: #ff7c00;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ff7c00;
+  background-color: #ffffff;
+  border-bottom-width: 5px;
+  border-bottom-color: #ff7c00;
+  
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ff7c00;
+  background-color: #ffffff;
+    border-bottom-width: 5px;
+  border-bottom-color: #ff7c00;
+
+}
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #000000;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #000000;
+}
+.navbar-default .navbar-link {
+  color: #000000;
+}
+.navbar-default .navbar-link:hover {
+  color: #ff7c00;
+          border-bottom-width: 5px;
+        border-bottom-color: #ff7c00;
+
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
   }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ff7c00;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ff7c00;
+    background-color: #ffffff;
+  }
+}
 
   /* FOOTER */
   footer{
@@ -229,7 +304,7 @@
 }
 
 .parallax { 
-        background-image: url("https://cdn.pixabay.com/photo/2016/06/17/06/04/background-1462755_960_720.jpg");
+        background-image: url("https://cdn.wallpapersafari.com/15/29/zjGWns.jpg");
         height: 500px; 
         background-attachment: fixed;
         background-position: center;

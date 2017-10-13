@@ -16,21 +16,25 @@
   </head>
   <body>
       <!--Base sin css -->
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container-fluid">
-    <div class="container">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-        <span class="sr-only">Toggle navigation</span>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
       </button>
       <a  href="<?php echo base_url(); ?>">
         <img src="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/logo_menu.png" style="width: 50%;"class="img-responsive" alt="Image">
       </a>
     </div>
-
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active buttons"><a href="#top">Inicio</a></li>
+        <li class="buttons"><a href="#">Proyectos</a></li>
+        <li class="buttons"><a href="#">Team</a></li> 
+        <li class="buttons"><a href="#contacto">Contacto</a></li> 
+      </ul>
     </div>
   </div>
 </nav>
