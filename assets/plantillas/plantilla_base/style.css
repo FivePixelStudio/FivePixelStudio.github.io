@@ -1,8 +1,11 @@
   body{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Teko', sans-serif;
+    
+  }
+  a{
+      font-size: 1.3em;
 
   }
-
   .sanluisvr{
     text-align: center;
   }
@@ -119,10 +122,13 @@
     background-color: #ffffff;
   }
 }
+.team{
+  margin-bottom: 30px;
+}
 
   /* FOOTER */
   footer{
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 30px 0px;
     background-color: #fc6500;
     color: white;
@@ -292,6 +298,11 @@
   margin: 0;
   padding: 0 25px 25px 0;
   text-align: right;
+
+}
+.carousel-indicators li.active {
+  background-color: #ff7c00;
+  border-color: #ff7c00;
 }
 
 .carousel-control.left,
@@ -343,3 +354,60 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+/*Contact sectiom*/
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#ff7c00;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center; 
+
+}
+#contact{
+    
+    font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+  background: black; /* fallback for old browsers */
+    color : #fff;    
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}

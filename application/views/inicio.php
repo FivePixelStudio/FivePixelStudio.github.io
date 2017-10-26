@@ -55,12 +55,12 @@
            <br>
         <script src="https://360player.io/static/dist/scripts/embed.js" async></script>
         <iframe src="https://360player.io/p/azzj3d/" frameborder="0" width=800 height=450 allowfullscreen data-token="azzj3d"></iframe>
-         <img src="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/separator.png" class="separator" alt="Image">
   </div>
 </div>
 
-<div id="team" class="container text-center">
+<div id="team" class="container team text-center">
   <h2 class="titulos">THE FIVE PIXEL TEAM</h3>
+     <img src="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/separator.png" class="separator" alt="Image">
     <p><em>We make games</em></p>
     <p>We are a small developer group that love create worlds.</p>
     <br>
@@ -130,5 +130,43 @@
           </div>
     </div>
    </div>
-
+   
 </div>
+
+<section id="contact">
+      <div class="section-content text-center">
+        <h1 class="section-header">Que esperas? <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Contactanos!</span></h1>
+        <h3>Envianos un mensaje, estamos para resolver sus dudas y consultas o simplemente para recibir sus sugerencias y comentarios</h3>
+      </div>
+      <div class="contact-section">
+      <div class="container">
+        <form>
+          <div class="col-md-6 form-line">
+              <div class="form-group">
+                <label for="exampleInputUsername">Nombre</label>
+                <input type="text" class="form-control" id="" placeholder=" Tu Nombre">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail">Correo Electronico</label>
+                <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Tu Email">
+              </div>  
+              <div class="form-group">
+                <label for="telephone">Telefono</label>
+                <input type="tel" class="form-control" id="telephone" placeholder=" Tu Telefono">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for ="description"> Mensaje</label>
+                <textarea  class="form-control" id="description" placeholder="Tu Mensaje..."></textarea>
+              </div>
+              <div>
+
+                <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Enviar Mensaje</button>
+              </div>
+              
+          </div>
+        </form>
+      </div>
+</section>
+
