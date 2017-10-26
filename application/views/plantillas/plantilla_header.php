@@ -11,7 +11,10 @@
     <!-- Bootstrap -->
     <link href="<?php echo BASE_ASSETS; ?>bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo BASE_ASSETS; ?>font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/style.css">
+    <link rel="stylesheet" href="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/jquery.bsPhotoGallery.css">
+    
     <link rel="shortcut icon" href="<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/favicon.ico" type="image/x-icon" />
   </head>
   <body>

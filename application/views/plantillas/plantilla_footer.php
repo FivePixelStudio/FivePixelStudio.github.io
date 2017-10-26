@@ -39,6 +39,8 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="<?php echo BASE_ASSETS; ?>/js/jquery.min.js"></script>
+    <script src="<?php echo BASE_ASSETS; ?>/js/jquery.bsPhotoGallery.js"></script>
+    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="<?php echo BASE_ASSETS; ?>bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 

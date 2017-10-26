@@ -1,3 +1,27 @@
+  body{
+    font-family: 'Roboto Mono', monospace;
+
+  }
+
+  .sanluisvr{
+    text-align: center;
+  }
+
+  .sanluisvr h3{
+    font-size: 14px;
+    font-weight: bold;
+    display:inline-block;
+
+  }
+  .separator{
+    display:inline-block;
+  }
+  .titulos{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+
+  }
   .cuerpo_general{
     min-height: 350px;
   }
@@ -305,6 +329,14 @@
 
 .parallax { 
         background-image: url("https://cdn.wallpapersafari.com/15/29/zjGWns.jpg");
+        height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+.parallax2 { 
+        background-image: url("<?php echo BASE_ASSETS; ?>plantillas/plantilla_base/img/banner.png");
         height: 500px; 
         background-attachment: fixed;
         background-position: center;
