@@ -243,7 +243,7 @@
 
 <section id="contact">
       <div class="section-content text-center">
-        <h1 class="section-header">Que esperas? <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Contactanos!</span></h1>
+        <h1 class="section-header">¿Que esperas? <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> ¡Contactanos!</span></h1>
         <h3>Envianos un mensaje, estamos para resolver sus dudas y consultas o simplemente para recibir sus sugerencias y comentarios</h3>
       </div>
       <div class="contact-section">
@@ -263,16 +263,16 @@
                 <input type="tel" class="form-control" id="telephone" placeholder=" Tu Telefono">
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-sm-6 ">
               <div class="form-group">
                 <label for ="description"> Mensaje</label>
-                <textarea  style="max-width: 500px; max-height: 200px;" class="form-control" id="description" placeholder="Tu Mensaje..."></textarea>
+                <textarea  style="max-height: 200px;" class="form-control" id="description" placeholder="Tu Mensaje..."></textarea>
               </div>
               <div>
 
                 <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Enviar Mensaje</button>
               </div>
-              
+              <br>   
           </div>
         </form>
       </div>

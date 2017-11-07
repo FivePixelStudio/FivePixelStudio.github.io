@@ -16,8 +16,8 @@
         <div class="col-xs-12 col-sm-12 col-md-3 text-center social-footer">
           <div class="social">
             <ul class="list-inline">
-              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.facebook.com/fivepixelstudio"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://twitter.com/Fivepixelstudio"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
               <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
             </ul>
           </div>

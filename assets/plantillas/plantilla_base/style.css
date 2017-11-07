@@ -152,7 +152,7 @@ font-size: 20px;
     padding-top: 24px;
   }
   footer .social-footer .social i{
-    padding: 8px 15px 8px 11px;
+    padding: 1px 1px 1px 1px;
     width: 30px;
     height: 30px;
   }
@@ -162,8 +162,8 @@ font-size: 20px;
   }
   footer .social-footer i:hover{
     color: white;
-    border-radius: 50%;
-    padding: 8px;
+    border-radius: 80%;
+    padding: 4px;
   }
   footer .social-footer .social .fa-facebook:hover{
     background-color: #4060A5;
@@ -390,7 +390,7 @@ font-size: 20px;
   padding-top: 40px;
 }
 .contact-section .col-md-6{
-  width: 50%;
+  
 }
 
 .form-line{

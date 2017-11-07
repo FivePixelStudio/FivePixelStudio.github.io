@@ -37,8 +37,8 @@
       <ul class="nav navbar-nav">
         <li class="active buttons"><a href="#top">Inicio</a></li>
         <li class="buttons"><a href="#">Proyectos</a></li>
-        <li class="buttons"><a href="#">Team</a></li> 
-        <li class="buttons"><a href="#contacto">Contacto</a></li> 
+        <li class="buttons"><a href="#team">Team</a></li> 
+        <li class="buttons"><a href="#contact">Contacto</a></li> 
       </ul>
     </div>
   </div>
