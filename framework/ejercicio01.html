@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>bootstrap-test</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src=".bootstrap/js/jssor.slider.mini.js"></script>
+
+    <style>
+    body
+    {
+      font-family: 'Arimo', sans-serif;
+      background-color: #333;
+      color:white;
+    }
+    #button{
+      padding: 4px;
+      margin-top: 15px;
+
+
+    }
+    #button:hover
+    {
+      color:gray;
+    }
+    .search-bar
+    {
+      border: none;
+      margin-top: 15px;
+    }
+    .search
+    {
+      float:right;
+    }
+    .navbar {
+      
+      border: none;
+      border-radius: 0px;
+    }
+    .avatar
+    {
+      position: absolute;
+      width: 80px;
+      margin-top: -55px;
+      margin-left: 10px;
+    }
+    .panel .panel-heading
+    {
+      background-color: #F00;
+      border-color: #F88;
+      box-shadow: 0px 5px #A00;
+    }
+    .panel-body,.panel-default,.panel
+    {
+      background-color: #222;
+
+    }
+    .panel-footer
+    {
+      background-color: #111;
+       border-color: red;
+    }
+    .panel
+    {
+      border-color: red;
+    }
+    img
+    {
+      margin-top: 5px;
+    }
+    .panel .panel-heading
+    {
+      color:white;
+      font-weight: bold;
+      text-shadow:0px -2px #A00;
+    }
+
+
+    tbody
+    {
+    color: red;
+    }
+    .navbar-default {
+  background-color: #17181c;
+  border-color: #3e81c1;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-text {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ecdbff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #17181c;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ecdbff;
+  background-color: #3e81c1;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #3e81c1;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ecdbff;
+  background-color: #3e81c1;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ecdbff;
+  background-color: #3e81c1;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ecdbff;
+  background-color: #3e81c1;
+}
+.navbar-default .navbar-toggle {
+  border-color: #3e81c1;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3e81c1;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ecdbff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #3e81c1;
+  }
+}
+
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <header>
+    
+    <nav class="navbar navbar-default" role="navigation">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+              data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Desplegar navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+      </button>
+         <div class="navbar-header"> <a class="navbar-brand" href="#">ZEN</a></div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Inicio</a></li>
+              <li><a href="">Historia</a></li>
+              <li><a href="">Galeria</a></li>
+              <li><a href="">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      
+    </header>
+    <div class="container">
+      <div class="row">
+        <h1>El rincon de Zen</h1>
+      </div>
+    </div>
+    
+    <br>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">CATEGORIA UNO</div>
+            <img src="img/zenb.png" alt="" class="img-responsive">
+            <div class="panel-body"><h2>Lorem ipsum dolor.</h2> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque asperiores ipsa totam fugiat facilis corporis alias amet quod repudiandae commodi nesciunt nisi sint, perferendis optio quasi libero eligendi. Rem, sequi!</p></div>
+            <div class="panel-footer"><i>Publicado 19/04/2017</i></div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">NOTICIA 2</div>
+            <div class="panel-body"><h1>Cosas que hace uno en casa</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, labore facilis sequi in placeat accusamus at enim libero quod doloremque sint aliquam recusandae.</p><br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            </div>
+            <div class="panel-footer"><i>Publicado 19/04/2017</i></div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">ZEN TILO</div>
+            <img src="img/zena.png" alt="" class="img-responsive">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png" alt="" class="img-responsive img-circle avatar">
+
+            <div class="panel-body"><h1>"ZEN" el juego</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis impedit aliquam recusandae minima odio quia tempora inventore consectetur vero, molestiae saepe non, illum ipsa in quisquam unde, nemo quas! Velit.</p></div>
+            <div class="panel-footer"><i>Publicado 19/04/2017</i></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+            <div class="panel panel-default">
+              <div class="row">
+                <div class="col-sm-2"> <img src="http://www.revistagq.com/uploads/images/201514/10_emojis_que_no_debes_usar_para_ligar_bajo_pena_de_morir_triste_y_solo_13655436.jpg" style="margin:5px; width:120px;" alt="" class="img-responsive img-circle"></div>
+
+                <div class="col-sm-10"><h1>El capo lopapo</h1><p><i>Comentario:</i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea fugit ex modi culpa ipsa rem eligendi laboriosam quasi nostrum magnam? Libero eveniet sed tempore iste deserunt, rerum, excepturi ab a.</p></div>
+
+              </div>
+             <div class="panel-footer" style="font-size:12px; line-height:5px;">Hace 1 Hora</div> 
+            </div>
+            <div class="row">
+            <div class="col-sm-12">
+            <div class="panel panel-default">
+              <div class="row">
+                <div class="col-sm-10 text-right"><h1>Elka Vezon</h1><p><i>Comentario:</i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea fugit ex modi culpa ipsa rem eligendi laboriosam quasi nostrum magnam? Libero eveniet sed tempore iste deserunt, rerum, excepturi ab a.</p></div>
+                <div class="col-sm-2 "> <img src="https://pbs.twimg.com/media/CEoWKYYWYAAYKjI.jpg" style="margin:5px; width:120px;" alt="" class="img-responsive img-circle"></div>
+
+              </div>
+               <div class="panel-footer text-right" style="font-size:12px; line-height:5px;" >Hace 20 minutos</div> 
+              </div>
+
+            </div>
+        </div>
+      </div>
+
+    </div>
+   <h3>FONDOS NECESARIOS PARA EMPEZAR EL PROYECTO</h3>
+     <div class="progress">
+
+  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+  aria-valuemin="0" aria-valuemax="100" style="width:70%; background-color:#F92222;">
+    $10.000
+  </div>
+</div>
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">Noticias</a></li>
+  <li><a data-toggle="tab" href="#menu1">Novedades</a></li>
+  <li><a data-toggle="tab" href="#menu2">Otros</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h3>Noticias</h3>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ex inventore eveniet enim, asperiores velit, repellendus quaerat voluptate tempora laboriosam, omnis quis libero deleniti eligendi vero quam praesentium quae sunt!</p>
+              <button type="button" data-toggle="collapse" data-target="#coment" class="btn btn-default btn-info">Comentar</button>
+            </div>
+            <div class="panel-footer collapse text-right" id="coment">
+              <textarea name="text" id="inputText"  class="form-control" rows="3" required="required"></textarea>
+              <br>
+              <button type="submit" class="btn btn-default btn-info">Enviar</button>
+                          </div>
+                        </div>
+                      </div>
+        <div class="col-sm-8">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Clase</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr id="list0">
+                <td>Pepe</td>
+                <td>Argento</td>
+                <td>2A</td>
+                <td>
+                  <button type="button" data-toggle="modal" href="#eliminar" class="btn btn-sm btn-danger">Eliminar</button>
+                </td>
+              </tr id="list1">
+                <tr>
+                <td>Marcos</td>
+                <td>Maldonado</td>
+                <td>3B</td>
+                <td>
+                  <button type="button" data-toggle="modal" href="#eliminar" class="btn btn-sm btn-danger">Eliminar</button>
+                </td>
+
+              </tr id="list2">
+                <tr>
+                <td>Elque</td>
+                <td>Tegede</td>
+                <td>4A</td>
+                <td>
+                  <button type="button" data-toggle="modal" href="#eliminar"  class="btn btn-sm btn-danger">Eliminar</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h3>Novedades</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe maxime sed architecto nobis alias, hic cumque. Maxime, deserunt! Amet odit maxime labore veritatis similique omnis!<img class="img-responsive img-rounded img-thumbnail" src="img/zena.png"></div>
+        <div class="col-xs-12 col-sm-6">Placeat doloremque expedita architecto magnam repellendus optio quidem nam, id necessitatibus ipsa aliquam quaerat exercitationem quae? Necessitatibus fugiat iure rem eaque consequatur dignissimos ex optio?<img class="img-responsive img-rounded img-thumbnail" src="img/zenb.png"></div>
+      </div>
+    </div>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h3>Otros</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eos temporibus omnis cum eius, adipisci tempore dignissimos molestiae totam deleniti id vitae, laboriosam nesciunt perspiciatis fugiat rem necessitatibus maiores facere illum, nobis voluptate aperiam non?</div>
+        <div class="col-sm-3">Omnis perferendis, quia saepe excepturi ad fuga ipsa corrupti, aspernatur, eius eum expedita. Quos, soluta, aperiam! Totam ex at itaque, aspernatur numquam ipsum asperiores eum veritatis nemo quam tenetur voluptate, quisquam mollitia, laboriosam molestiae quos.</div>
+        <div class="col-sm-3">Itaque maxime dolor non ratione at qui labore quidem, nam quisquam et dolorum, optio similique beatae aliquid sed molestiae? Nesciunt omnis unde, maiores totam. Vero voluptatem architecto assumenda ullam officiis sit nulla, magnam, accusantium necessitatibus!</div>
+        <div class="col-sm-3">Itaque maxime dolor non ratione at qui labore quidem, nam quisquam et dolorum, optio similique beatae aliquid sed molestiae? Nesciunt omnis unde, maiores totam. Vero voluptatem architecto assumenda ullam officiis sit nulla, magnam, accusantium necessitatibus!</div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+  </div>
+</div>
+      <div class="modal fade" id="eliminar">
+        <div class="modal-dialog">
+          <div class="modal-content">
+       
+            <div class="modal-body text-center" style="color:black;">
+              <h4>¿Esta seguro que desea eliminar esta persona?</h4>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn-danger">Eliminar</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

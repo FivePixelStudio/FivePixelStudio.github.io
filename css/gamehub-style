@@ -1,0 +1,150 @@
+  html,body{
+        margin:0px;
+        padding:0px;
+
+      }
+      body{
+           background-color: #444;
+      }
+
+     nav.navbar,.navbar-inverse
+      {
+       border-radius:0px;
+       font-family: 'Muli', sans-serif;
+       margin-bottom: 0px;
+
+      }
+      a.boton
+      {
+        border-color:white;border-radius:10px;border:1px solid;
+         transition:0.2s;
+         
+
+      }
+      a.boton:hover
+      {
+         border-color:#66DDFF;
+          transition:0.2s;
+      }
+      .cuadro_boton:hover
+      {
+        background-color: #66DDFF;
+        transition:0.2s;
+
+
+      }
+      .cuadro_boton
+      {
+        background-color: none;
+        border-radius: 10px;
+         transition:0.2s;
+       
+      }
+      .navbar ul li a{
+        
+        line-height: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+      .fa-gamepad{
+        font-size: 24px;
+      }
+      .navbar-brand{
+        margin-top: -3px;
+        font-family: 'Baloo', cursive;
+
+        color: #66DDFF;
+      }
+     .more-margin{
+      margin: 2px;
+     }
+     .page-center{
+      height:50px;
+     }
+     .side
+     {
+      background-color: #222222;
+       
+     }
+     .middle
+     {
+      background-color: #222222;
+      margin-right: -15px;
+     }
+     ul.game-pages
+     {
+      float:left;
+      list-style-type: none;
+      margin: 0px;
+      
+
+      margin-left: auto;
+      margin-right: auto;
+     
+     
+     }
+     ul.game-pages a li
+     {
+      padding: 20px;
+      line-height: 8px;
+     
+
+      float:left;
+     }
+     ul.game-pages a
+     {
+      text-decoration: none;
+      color:black;
+     }
+     .sinpadding [class*="col-"] {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .panel-izq ul a
+    {
+
+      text-decoration: none;
+      color:white;
+
+
+    }
+    .panel-izq ul
+    {
+      list-style-type: none;
+      padding: 0px;
+
+    }
+    .panel-izq ul a li
+    {
+      line-height: 50px;
+      border-bottom: 1px solid #444;
+       padding-left: 10px;
+    }
+    .panel-izq
+    {
+       font-family: 'Muli', sans-serif;
+     
+      color:white;
+      
+    }
+    .panel-izq ul h3
+    {
+      padding-left: 10px;
+      line-height: 30px;
+      color:#66DDFF;
+      border-bottom: 1px solid #444;
+    }
+    .panel-izq ul li:hover
+    {
+      background-color: #66DDFF;
+    }
+    .titulo-juego
+    {
+    margin:30% 0px 0px 50px; color:white; position:absolute;
+    text-shadow:2px 2px 0px black;
+    }
+    .descripcion-juego
+    {
+    margin:35% 0px 0px 50px; font-size: 16px;color:white; position:absolute;
+    text-shadow:2px 2px 0px black;
+    }

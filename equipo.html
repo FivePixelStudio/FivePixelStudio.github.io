@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  <meta name="description" content="Somos un equipo de desarrollo independiente de videojuegos, producimos soluciones de Realidad Virtual y Realidad Aumentada">
+  <meta name="keywords" content="AR,VR,Game Development,Indie,Videojuegos">
+  <meta name="author" content="Five Pixel Studio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>El equipo</title>
+	<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+	<style>
+		nav,main
+		{
+			font-family: 'Fredoka One', cursive;
+			font-size: 13px;
+
+		}
+		main
+		{
+			margin-top: -20px;
+		}
+		#brand
+		{
+			height: 60px;
+			margin-top: -20px;
+			transition:0.2s;
+		}
+		#brand:hover
+		{
+			margin-left:5px;
+			transition:0.2s;
+		}
+
+		.navbar , .navbar-inverse
+		{
+			border-radius: 0px;
+			background-color: #000;
+			padding: 10px 0px;
+		}
+		li.active a
+		{
+			background-color: #ff6200!important;
+			border-radius: 5px;
+		}
+		li a:hover
+		{
+			margin-top: -2px;
+			transition:0.2s;
+		}
+		footer
+		{
+			background-color: #000;
+			bottom: 0;
+           	height: 100px;
+            width: 100%;
+			padding: 10px 0px;
+			display: block;
+			font-size: 12px;
+
+		}
+		footer div
+		{
+			display: block;
+			margin-left: 15px;
+			
+		}
+		#footer-brand
+		{
+			height: 50px;
+			margin: 10px;
+			float: left;
+		}
+		#footer-info
+		{
+			margin-top: 20px;
+			float: left;
+
+		}
+		.redes{
+			float: right;
+			margin:25px;
+		}
+		.redes img
+		{
+			height:30px;
+		}
+		.redes img:hover
+		{
+			opacity: 0.5;
+
+		}
+		   .titulo-juego
+	    {
+	    	padding: 10px;
+	      margin-left: 5%;
+	  	 color:white; position:absolute;
+	  	font-size: 70px;
+	    text-shadow:2px 2px 0px black;
+	    background-color: black; 
+
+	    }
+	    .descripcion-juego
+	    {
+	    	padding: 10px;
+	      margin-left: 5%; margin-top: 10%; font-size: 30px;color:white; position:absolute;
+	    text-shadow:2px 2px 0px black;
+	    background-color: black; 
+	    }
+	    .item img
+	    {
+	    	overflow: hidden;
+	    	width: 100%; 
+
+	    }
+	    .games
+	    {
+	    	width:300px;
+	    }
+	    .game-name
+	    {
+
+	    	background-color: rgba(0,0,0,0); width: 300px;height:300px; margin-left:4px;position: absolute;
+	    	padding: 15px;
+	    	color:rgba(0,0,0,0);
+	    	transition: 0.2s;
+	    }
+	    .game-name:hover
+	    {
+	    	background-color: rgba(0,0,0,0.7); width: 300px;height:300px; margin-left:4px;position: absolute;
+	    	padding: 15px;
+	    	color:rgba(255,255,255,1);
+	    	transition: 0.2s;
+	    }
+	    .orange-title h1{
+	    	background-color: #ff6200;
+	    	color:white;
+	    	box-shadow: 1px 2px 5px black;
+	    }
+	    .btn-orange
+	    {
+	    	background-color: #ff6200;
+	    	color:white;
+	    	box-shadow: 1px 2px 5px black;
+	    }
+	     .btn-orange:hover
+	    {
+	    	background-color: #ff6200;
+	    	color:white;
+
+	    	box-shadow: 0px 0px 0px black;
+	    	transition: 0.2s;
+	    }
+	     .btn-orange:focus
+	    {
+	    	
+	    	color:white;
+	    	
+	    	
+	    }
+
+	    .equipo
+	    {
+	    	width:250px;
+			border-radius: 25px;
+
+	    }
+	
+		p
+		{
+			text-align:justify;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img id="brand" src="img/BRAND.png" alt="brand"></a>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li ><a href="index.html">INICIO</a></li>
+					<li><a href="#">TRABAJOS</a></li>
+					<li class="active"><a href="#">EL EQUIPO</a></li>
+					<li><a href="#">CONTACTO</a></li>
+				</ul>
+				 	
+				
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	<main>
+	
+    <div style="text-align: center">
+    	
+    	<div class="orange-title">
+    	<h1 class="text-left">EL EQUIPO</h1></div>
+    	<br>
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    				<img class="equipo" src="img/equipo/ErikS.png" alt="">
+    				<h2>Erik Schaub Farrell</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique harum exercitationem expedita, aliquam vero illo, excepturi tenetur recusandae iure fuga odit reprehenderit quisquam accusantium doloribus dolorum itaque mollitia! Officiis, et.</p>
+    			</div>
+    			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    				<img class="equipo" src="img/equipo/FrancoB.png" alt="">
+    				<h2>Franco Bornancini</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique harum exercitationem expedita, aliquam vero illo, excepturi tenetur recusandae iure fuga odit reprehenderit quisquam accusantium doloribus dolorum itaque mollitia! Officiis, et.</p>
+    			</div>
+    			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    				<img class="equipo" src="img/equipo/LautaroC.png" alt="">
+    				<h2>Lautaro Careglio</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique harum exercitationem expedita, aliquam vero illo, excepturi tenetur recusandae iure fuga odit reprehenderit quisquam accusantium doloribus dolorum itaque mollitia! Officiis, et.</p>
+    			</div>
+    			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    				<img class="equipo" src="img/equipo/MarcosM.png" alt="">
+    				<h2>Marcos Maldonado</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique harum exercitationem expedita, aliquam vero illo, excepturi tenetur recusandae iure fuga odit reprehenderit quisquam accusantium doloribus dolorum itaque mollitia! Officiis, et.</p>
+    			</div>
+    		</div>
+    		<br>
+    		<div class="row">
+    			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    				
+    			</div>
+    			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    				<img class="equipo" src="img/equipo/LeandroS.png" alt="">
+    				<h2>Leandro Sosa</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique harum exercitationem expedita, aliquam vero illo, excepturi tenetur recusandae iure fuga odit reprehenderit quisquam accusantium doloribus dolorum itaque mollitia! Officiis, et.</p>
+    			</div>
+    			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    				<img class="equipo" src="img/equipo/JoseS.png" alt="">
+    				<h2>José Suarez</h2>
+    				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique harum exercitationem expedita, aliquam vero illo, excepturi tenetur recusandae iure fuga odit reprehenderit quisquam accusantium doloribus dolorum itaque mollitia! Officiis, et.</p>
+    			</div>
+    			
+    			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    				
+    			</div>
+    		</div>
+    		<br>
+    		<br>
+    		<br>
+    	</div>
+    </div>
+	</main>
+	<footer>
+		<div>
+			<img src="img/BRAND-foot.png" id="footer-brand" alt="">
+		</div>
+		<div id="footer-info">
+			<p>Francia 2026 | San Luis, Argentina | +54 266 4843722</p>
+					<p>© 2018 Five Pixel Studio</p>
+		</div>	
+		<div class="redes">
+			<a href="https://www.facebook.com/fivepixelstudio/"><img src="img/F_icon.png" alt="Facebook"></a>
+			<a href="https://twitter.com/fivepixelstudio"><img src="img/T_icon.png" alt="Twitter"></a>
+			<a href="https://www.youtube.com/channel/UCdbNJvMrTnww_rio6JL62wg"><img src="img/Y_icon.png" alt="Youtube"></a>
+		</div>
+	</footer>
+</body>
+</html>

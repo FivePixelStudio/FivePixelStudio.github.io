@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>ComentarioTest</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	
+</head>
+<body>
+	<script>
+		function comentar()
+		{
+
+			var comentario=document.getElementById("mensaje").value;
+			document.getElementById("comentario").innerHTML=comentario;
+			document.getElementById("mensaje").value=" ";
+			
+		}
+	</script>
+	<div class="container">
+		<div class="row">
+			<form action="xxx.html" method="GET">
+			<div class="col-sm-6">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						
+					</div>
+					<div class="panel-body">
+						<div class="panel panel-default">
+							<div class="panel-body" id="comentario">
+								
+							</div>
+						</div>
+							<textarea name="mensaje"  id="mensaje" cols="10" rows="8" class="form-control"></textarea>
+						
+					</div>
+					<div class="panel-footer text-right">
+						<input onclick="comentar();" value="Comentar" type="button" class="btn btn-info"></input>
+					</div>
+				</div>
+			</div>
+			</form>
+		</div>
+	</div>
+	
+
+
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

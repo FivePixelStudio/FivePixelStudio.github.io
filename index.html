@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  <meta name="description" content="Somos un equipo de desarrollo independiente de videojuegos, producimos soluciones de Realidad Virtual y Realidad Aumentada">
+  <meta name="keywords" content="AR,VR,Game Development,Indie,Videojuegos">
+  <meta name="author" content="Five Pixel Studio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Five Pixel Studio</title>
+	<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+
+	<style>
+		nav,main
+		{
+			font-family: 'Fredoka One', cursive;
+			font-size: 13px;
+
+		}
+		main
+		{
+			margin-top: -20px;
+		}
+		#brand
+		{
+			height: 60px;
+			margin-top: -20px;
+			transition:0.2s;
+		}
+		#brand:hover
+		{
+			margin-left:5px;
+			transition:0.2s;
+		}
+
+		.navbar , .navbar-inverse
+		{
+			border-radius: 0px;
+			background-color: #000;
+			padding: 10px 0px;
+		}
+		li.active a
+		{
+			background-color: #ff6200!important;
+			border-radius: 5px;
+		}
+		li a:hover
+		{
+			margin-top: -2px;
+			transition:0.2s;
+		}
+		footer
+		{
+			background-color: #000;
+			bottom: 0;
+           	height: 100px;
+            width: 100%;
+			padding: 10px 0px;
+			display: block;
+			font-size: 12px;
+
+		}
+		footer div
+		{
+			display: block;
+			margin-left: 15px;
+			
+		}
+		#footer-brand
+		{
+			height: 50px;
+			margin: 10px;
+			float: left;
+		}
+		#footer-info
+		{
+			margin-top: 20px;
+			float: left;
+
+		}
+		.redes{
+			float: right;
+			margin:25px;
+		}
+		.redes img
+		{
+			height:30px;
+		}
+		.redes img:hover
+		{
+			opacity: 0.5;
+
+		}
+		   .titulo-juego
+	    {
+	    	padding: 10px;
+	      margin-left: 5%;
+	  	 color:white; position:absolute;
+	  	font-size: 70px;
+	    text-shadow:2px 2px 0px black;
+	    background-color: black; 
+
+	    }
+	    .descripcion-juego
+	    {
+	    	padding: 10px;
+	      margin-left: 5%; margin-top: 10%; font-size: 30px;color:white; position:absolute;
+	    text-shadow:2px 2px 0px black;
+	    background-color: black; 
+	    }
+	    .item img
+	    {
+	    	overflow: hidden;
+	    	width: 100%; 
+
+	    }
+	    .games
+	    {
+	    	width:300px;
+	    }
+	    .game-name
+	    {
+
+	    	background-color: rgba(0,0,0,0); width: 300px;height:300px; margin-left:4px;position: absolute;
+	    	padding: 15px;
+	    	color:rgba(0,0,0,0);
+	    	transition: 0.2s;
+	    }
+	    .game-name:hover
+	    {
+	    	background-color: rgba(0,0,0,0.7); width: 300px;height:300px; margin-left:4px;position: absolute;
+	    	padding: 15px;
+	    	color:rgba(255,255,255,1);
+	    	transition: 0.2s;
+	    }
+	    .orange-title h1{
+	    	background-color: #ff6200;
+	    	color:white;
+	    	box-shadow: 1px 2px 5px black;
+	    }
+	    .btn-orange
+	    {
+	    	background-color: #ff6200;
+	    	color:white;
+	    	box-shadow: 1px 2px 5px black;
+	    }
+	     .btn-orange:hover
+	    {
+	    	background-color: #ff6200;
+	    	color:white;
+
+	    	box-shadow: 0px 0px 0px black;
+	    	transition: 0.2s;
+	    }
+	     .btn-orange:focus
+	    {
+	    	
+	    	color:white;
+	    	
+	    	
+	    }
+	
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-inverse" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img id="brand" src="img/BRAND.png" alt="brand"></a>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">INICIO</a></li>
+					<li><a href="#">TRABAJOS</a></li>
+					<li><a href="equipo.html">EL EQUIPO</a></li>
+					<li><a href="#">CONTACTO</a></li>
+				</ul>
+				 	
+				
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+	<main>
+	<!-- 	Carrousel -->
+	
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+            
+
+              <div class="item active">
+               <h1 class="titulo-juego">Kitten UP</h1>
+               <h2  class="descripcion-juego " >¡Ayuda al gatito a llegar a lo mas alto!</h2>
+               <a href="https://play.google.com/store/apps/details?id=com.fivepixelstudio.android.upkittyup"><img src="img/games/kitten.png" alt="Kitten up!"></a>
+              </div>
+
+              <div class="item">
+                <h1 class="titulo-juego">SAN LUIS VR</h1>
+                <h2 class="descripcion-juego" >Proyecto de digitalizacion de la provincia de san luis mediante el uso de fotos 360</h2>
+                <img src="img/games/SanLuisVR.jpg" alt="Rojo">
+              </div>
+
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            </div>
+         
+      
+    <!-- 	Carrousel -->
+    <div style="text-align: center">
+    	<br>
+    	<h2>¡Bienvenidos a Five Pixel Studio!</h2>
+    	<h4>Somos un equipo de desarrollo independiente de videojuegos con sede en San Luis Capital, producimos soluciones de Realidad Virtual y Realidad Aumentada.</h4><h4> Tenemos muchos proyectos en desarrollo y apenas estamos comenzando, esperamos se diviertan con nuestro contenido</h4>
+    	<br>
+    	<div class="orange-title">
+    	<h1 class="text-left">PROYECTOS EN CURSO</h1></div>
+    	<br>
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    				<a href="#"><div class="game-name"><h2 class="text-left">DEADLOCKED</h2></div><img class="games" src="img/deadlocked500.png" alt=""></a>
+    			</div>
+    			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    				<a href="#"><div class="game-name"><h2 class="text-left">ZEN</h2></div><img class="games" src="img/zen500.png" alt=""></a>
+    			</div>
+    			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    				<a href="#"><div class="game-name"><h2 class="text-left">A Giants Tale</h2></div><img class="games" src="img/amely500.png" alt=""></a>
+    			</div>
+    			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    				<a href="#"><div class="game-name"><h2 class="text-left">Neko No Yume</h2></div><img class="games" src="img/nekonoyume500.png" alt=""></a>
+    			</div>
+
+    		</div>
+    		<br>
+    		<div class="text-right"><button type="button" class="btn btn-orange">MÁS </button></div>
+    		
+    		<br>
+    	</div>
+    </div>
+	</main>
+	<footer>
+		<div>
+			<img src="img/BRAND-foot.png" id="footer-brand" alt="">
+		</div>
+		<div id="footer-info">
+			<p>Francia 2026 | San Luis, Argentina | +54 266 4843722</p>
+					<p>© 2018 Five Pixel Studio</p>
+		</div>	
+		<div class="redes">
+			<a href="https://www.facebook.com/fivepixelstudio/"><img src="img/F_icon.png" alt="Facebook"></a>
+			<a href="https://twitter.com/fivepixelstudio"><img src="img/T_icon.png" alt="Twitter"></a>
+			<a href="https://www.youtube.com/channel/UCdbNJvMrTnww_rio6JL62wg"><img src="img/Y_icon.png" alt="Youtube"></a>
+		</div>
+	</footer>
+</body>
+</html>
