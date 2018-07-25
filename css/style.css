@@ -24,7 +24,7 @@
 			position: fixed;
 			width: 100%;
 			margin-top: 20px;
-			z-index: 1;
+			z-index: 99;
 		}
 		#brand
 		{
@@ -266,5 +266,6 @@
 	    	margin-bottom: 10px;
 
 	    }
+	    
     }
 	
