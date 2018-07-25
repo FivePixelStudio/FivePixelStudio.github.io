@@ -1,3 +1,7 @@
+		html
+		{
+			scroll-behavior: smooth;
+		}
 		nav,main,h1,h2,h3
 		{
 			font-family: 'Fredoka One', cursive;
@@ -14,6 +18,13 @@
 		h4
 		{
 			font-family: 'Source Sans Pro', sans-serif;
+		}
+		.navigation
+		{
+			position: fixed;
+			width: 100%;
+			margin-top: 20px;
+			z-index: 1;
 		}
 		#brand
 		{
@@ -198,10 +209,14 @@
 			border-radius: 50%;
 			border-style: solid;
 			border-color: #ff6200;
-			border-width: medium;
+			border-width: 8px;
 			
 	    }
-
+		.contact
+		{
+			padding: 2px;
+			height: 40px;
+		}
 	
 		p
 		{
