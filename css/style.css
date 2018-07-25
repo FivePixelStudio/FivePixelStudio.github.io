@@ -1,12 +1,19 @@
-		nav,main
+		nav,main,h1,h2,h3
 		{
 			font-family: 'Fredoka One', cursive;
-			font-size: 13px;
+			
 
+		}
+		nav,main{
+			font-size: 13px;
 		}
 		main
 		{
 			margin-top: -20px;
+		}
+		h4
+		{
+			font-family: 'Source Sans Pro', sans-serif;
 		}
 		#brand
 		{
@@ -40,19 +47,42 @@
 		{
 			background-color: #000;
 			bottom: 0;
-           	height: 100px;
+           margin-bottom: 0px;
             width: 100%;
-			padding: 10px 0px;
+		
 			display: block;
 			font-size: 12px;
-
+			text-align: center;
 		}
 		footer div
 		{
 			display: block;
-			margin-left: 15px;
+			margi-n-left: 15px;
+
 			
 		}
+		.social-team
+		{
+			margin-bottom: 10px;
+			display: block;
+		}
+		.social-img
+		{
+			
+			height: 35px;
+			float: center;
+			transition:0.2s;
+		}
+		a>.social-img:hover
+		{
+			opacity: 0.5;
+			transition:0.2s;
+		}
+		.invert
+		{
+			filter:invert(100%);
+		}
+
 		#footer-brand
 		{
 			height: 50px;
@@ -66,7 +96,7 @@
 
 		}
 		.redes{
-			float: right;
+			float: center;
 			margin:25px;
 		}
 		.redes img
@@ -103,23 +133,38 @@
 	    }
 	    .games
 	    {
-	    	width:300px;
-
+	    	width:100%;
+			overflow: hidden;
+	    }
+	    .games-box
+	    {
+	    	overflow: hidden;
+	    	padding :0px;!important;
 	    }
 	    .game-name
 	    {
 
-	    	background-color: rgba(0,0,0,0); width: 300px;height:192px; margin-left:4px;position: absolute;
-	    	padding: 15px;
+	    	background-color: rgba(0,0,0,0); width: 100%;height: 100%; position: absolute;
+	    	
 	    	color:rgba(0,0,0,0);
 	    	transition: 0.2s;
+	    	overflow: hidden;
+
+	    	
+	    }
+	    .game-name h2
+	    {
+	    	margin-left: 15px;
 	    }
 	    .game-name:hover
 	    {
-	    	background-color: rgba(0,0,0,0.7); width: 300px;height:192px; margin-left:4px;position: absolute;
-	    	padding: 15px;
+	    	background-color: rgba(0,0,0,0.7); width: 100%;height: 100%; position: absolute;
+	    	
 	    	color:rgba(255,255,255,1);
 	    	transition: 0.2s;
+	    	overflow: hidden;
+
+	    	
 	    }
 	    .orange-title h1{
 	    	background-color: #ff6200;
@@ -150,9 +195,13 @@
 	    .equipo
 	    {
 	    	width:250px;
-			border-radius: 25px;
-
+			border-radius: 50%;
+			border-style: solid;
+			border-color: #ff6200;
+			border-width: medium;
+			
 	    }
+
 	
 		p
 		{
@@ -163,4 +212,44 @@
 	    	padding-left: 10px;
 	    	font-size:30px;
 	    }
+
+	  @media screen and (min-width:1190px)
+	   {
+
+		   .titulo-juego,.descripcion-juego{
+            display:block!important;
+        }
+          footer
+        {
+        		padding: 10px 0px;
+        }
+        .redes{
+			float: right;
+			
+		}
+		  .games-box
+	    {
+	    	margin-bottom: 0px;
+
+	    }
+       }
+    
+     @media screen and (max-width:1187px) {
+         .titulo-juego,.descripcion-juego{
+            display:none!important;
+        }
+        footer
+        {
+        		padding:0px;
+        }
+          .redes{
+			float: center;
+			
+		}
+		  .games-box
+	    {
+	    	margin-bottom: 10px;
+
+	    }
+    }
 	
