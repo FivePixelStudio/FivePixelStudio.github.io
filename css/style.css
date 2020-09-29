@@ -229,7 +229,14 @@
 			border-style: solid;
 			border-color: #ff6200;
 			border-width: 8px;
+			transition:0.2s;
 			
+	    }
+	    .equipo:hover
+	    {
+			border-width: 4px;
+			
+			transition:0.2s;
 	    }
 		.contact
 		{
